@@ -1,0 +1,47 @@
+#python type casting
+#integer type casting
+print(int(2.3)) #float to integer
+print(int(True)) #booolean to integer
+print(int('10')) #string to integer, string should be integer string not text with string
+
+# NOT POSSIBLE
+# print(int(2+3j)) #complex to integer
+# print(int('two')) #error
+
+
+#float typecasting
+
+print(float(2)) #integer to float
+print(float(False)) # boolean to float
+# NOT POSSIBLE print(float(2+3j))
+# VALUE ERROR print(float('three')
+
+#COMPLEX TYPECASTING
+print(complex(2))
+print(complex(3,4))
+print(complex(4.5,7.8))
+print(complex(4,6.8))
+print(complex(False,False))
+print(complex(True,False))
+print(complex('1'))
+# print(complex('3','7')) #both string cannot be declared together
+# print(complex('1',3)) #if first argument is string it will not take second argument
+# print(complex(5,'6')) # second argument cant be string
+
+#BOOLEAN TYPECASTING
+print(bool(1))
+print(bool(4.5))
+print(bool(1+2j))
+print(bool('kkjjhg')) #non zero arguments are true
+print(bool())
+print(bool(0.0))
+print(bool(0j))
+print(bool('0')) #true
+
+#STRING TYPE CASTING
+print(str(5))
+print(str(5.6))
+print(str(True))
+print(str(5+6j))
+print(str(0))
+
